@@ -1,56 +1,52 @@
 :root{
-    --vermelho:#E50914;
-    --preta:#141414;
+    --vermelho: #E50914;
+    --preto: #141414;
 }
 
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+/* Elementos Base*/
 
-/*elementos base*/
-body{
-   background: var(--preta);
-   font-family: 'Arial', Times, serif;
-   color:white;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--preto);
+    color: white;
 }
 
-
-header .container{
-    display:flex;
+header .container {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
 }
 
-header .logo{
-    margin-left: 5px;
+header .logo {
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size:40px;
+    margin-left: 15px;
 }
 
 header nav a{
-    text-decoration:none;
-    color:#AAA;
+    text-decoration: none;
+    color: #AAA;
     margin-right: 10px;
 }
 
-
 header nav a:hover{
-    color:#fff;
+    color: #fff;
 }
 
-/*filme principal*/
-.filme-principal{
-    font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+/* Filme Principal*/
 
-    height:400px;
-    background-size:cover;
- 
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url('/img/got-wallpaper.jpg');
+
+    height: 400px;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
@@ -58,25 +54,24 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-
 .filme-principal .descricao{
-    margin-top: 10px;
     margin-bottom: 40px;
+    margin-top: 10px;
 }
 
-
-.filme-principal .titulo{
-    margin-top: 15%;
+.titulo{
+    margin-top: 20px;
     font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .botao{
     background-color: rgba(0,0,0,.50);
-    border:none;
+    border: none;
+    text-decoration: none;
     color: white;
 
-    padding:15px 30px;
+    padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
 
@@ -84,51 +79,47 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
+.btn-link{
+    text-decoration: none;
+    color: white;
+}
+.btn-link:hover{
+    background-color: white;
+    color: black;
+}
+
 .botao:hover{
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
 }
 
 .botao i{
-    margin-right: 8px;
+    margin: 8px;
 }
 
-
 .container{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 80%;
 }
 
 .box-filme{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
     cursor: pointer;
 }
 
-
-.carrosel-filmes{
-    margin-top:5px;
+.carrossel-filmes{
+    margin: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.carrossel-filmes h3{
+    margin: 5px;
+}
