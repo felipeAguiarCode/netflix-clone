@@ -45,7 +45,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url('/img/got-wallpaper.jpg');
 
-    height: 500px;
+    height: 400px;
     background-size: cover;
 
     display: flex;
@@ -68,6 +68,7 @@ header nav a:hover{
 .botao{
     background-color: rgba(0,0,0,.50);
     border: none;
+    text-decoration: none;
     color: white;
 
     padding: 15px 30px;
@@ -77,6 +78,16 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 }
+
+.btn-link{
+    text-decoration: none;
+    color: white;
+}
+.btn-link:hover{
+    background-color: white;
+    color: black;
+}
+
 .botao:hover{
     background-color: white;
     color: black;
@@ -91,7 +102,7 @@ header nav a:hover{
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 80%;
 }
 
 .box-filme{
@@ -103,4 +114,12 @@ header nav a:hover{
 .carrossel-filmes{
     margin-top: 5px;
     cursor: pointer;
+}
+
+.carrossel-filmes{
+    margin: 5px;
+}
+
+.carrossel-filmes h3{
+    margin: 5px;
 }
