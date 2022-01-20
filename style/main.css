@@ -1,6 +1,7 @@
 :root{
-    --vermelho:#E50914;
+    --vermelho:rgb(255, 102, 0);
     --preta:#141414;
+    --capa: url('../img/capa1.jpg');
 }
 
 *{
@@ -43,10 +44,10 @@ header nav a:hover{
     color:#fff;
 }
 
-/*filme principal*/
-.filme-principal{
+/*jogo principal*/
+.jogo-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  var(--capa);
 
     height:400px;
     background-size:cover;
@@ -59,13 +60,13 @@ header nav a:hover{
 }
 
 
-.filme-principal .descricao{
+.jogo-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
 
-.filme-principal .titulo{
+.jogo-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -98,7 +99,7 @@ header nav a:hover{
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.jogo-principal .container{
     width: 70%;
 }
 
