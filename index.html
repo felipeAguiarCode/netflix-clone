@@ -12,35 +12,42 @@
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
-    <title>NETFLIX CLONE</title>
+    <!--icones-->
+    <!-- <script src="https://kit.fontawesome.com/95faab1fbb.js" crossorigin="anonymous"></script> -->
+
+    <title>GAMEFLIX</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">GAMEFLIX</h2>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#">Lançamentos</a>
+                <a href="#">Ação</a>
+                <a href="#">Aventura</a>
+                <a href="#">Arcade</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="filme-principal">
+        <div class="jogo-principal" id="jogo-principal">
             <div class="container">
-                <h3 class="titulo">HOUSE OF CARDS</h3>
-                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+                <h3 class="titulo" id="titulo">HORIZON FORBIDDEN WEST</h3>
+                <p class="descricao" id="descricao">Junte-se à Aloy para desbravar o Oeste Proibido, uma área majestosa e perigosa que esconde novas ameaças misteriosas. Explore terras distantes, enfrente máquinas maiores e mais imponentes, e encontre novas tribos incríveis ao retornar o futuro distante e pós-apocalíptico de Horizon.</p>
                 <div class="botoes">
+                    <a href="https://www.youtube.com/watch?v=UxDWGW7Z67I" target="_blank" id="bttrailer">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
+                        TRAILER
                     </button>
+                    </a>
+                    <a href="https://br.ign.com/horizon-forbidden-west/95974/news/ps4-ps5-horizon-forbidden-west-ganha-trailer-de-historia" target="_blank" id="btinfo">
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -48,45 +55,44 @@
 
     <div class="carrosel-filmes">
         <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+                <div class="item" id="item1">
+                    <img class="box-filme" src="img/img1.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+                <div class="item" id="item2">
+                    <img class="box-filme" src="img/img2.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+                <div class="item" id="item3">
+                    <img class="box-filme" src="img/img3.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+                <div class="item" id="item4">
+                    <img class="box-filme" src="img/img4.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+                <div class="item" id="item5">
+                    <img class="box-filme" src="img/img5.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+                <div class="item" id="item6">
+                    <img class="box-filme" src="img/img6.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+                <div class="item" id="item7">
+                    <img class="box-filme" src="img/img7.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
+                <div class="item" id="item8">
+                    <img class="box-filme" src="img/img8.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
+                <div class="item" id="item9">
+                    <img class="box-filme" src="img/img9.jfif" alt="" srcset="">
                 </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
+                <div class="item" id="item10">
+                    <img class="box-filme" src="img/img10.jfif" alt="" srcset="">
                 </div>
         </div>
     </div>
 
 
-
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/change-info.js"></script>
  
 
  
