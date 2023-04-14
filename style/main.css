@@ -46,10 +46,11 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-boku-no-hero.png');
 
     height:400px;
     background-size:cover;
+    background-position: bottom center;
  
 
     display: flex;
@@ -103,7 +104,7 @@ header nav a:hover{
 }
 
 .box-filme{
-    height: 100%;
+    height: 500px;
     width: 100%;
     display: block;
     cursor: pointer;
